@@ -1,1 +1,6 @@
-
+# Check out solution https://github.com/Vasilisk1406/progintro-hw0--Vasilisk1406-.git
+$ cat solution.txt
+Vasilisk1406.github.io
+# Ensure the URL exists
+$ curl --output /dev/null --silent --head --fail Vasilisk1406.github.io $$ \ echo "URL exists" || echo "URL does not exists"
+URL exists
